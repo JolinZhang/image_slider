@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="image_slider.css">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script type="text/javascript" src="image_slider.js"></script>
+<body ng-app="sliderApp">
+<div class="slider" ng-controller="SliderController">
+  <!-- <img ng-src="img/{{sliders[0].src}}"/> -->
+<div class="slide" ng-repeat='slider in sliders' >
+  <img ng-src = 'img/{{slider.src}}' ng-show ='currentIndex === {{$index}}'/>
+</div>
+<div class="arrowsleft" ng-click='prev()'>
+    <img src='img/left_arrow.png'/>
+</div>
+<div class="arrowsright" ng-click='next()'>
+    <img src='img/right_arrow.png'/>
+</div>
+<h1>{{sliders[currentIndex].title}}</h1>
+</div>
+
+</body>
+</html>
