@@ -10,4 +10,4 @@
 + add description of the image to the slider
 + .......
 
-<img src="https://raw.githubusercontent.com/JolinZhang/image_slider/master/beach.png" width="15%"></img>
+<img src="https://raw.githubusercontent.com/JolinZhang/image_slider/master/beach.png" width="40%"></img>
