@@ -10,4 +10,4 @@
 + add description of the image to the slider
 + .......
 
-![alter text](https://raw.githubusercontent.com/JolinZhang/image_slider/master/Screen%20Shot%202016-07-06%20at%202.04.18%20PM.png)
+<img src="https://raw.githubusercontent.com/JolinZhang/image_slider/master/beach.png" width="15%"></img>
